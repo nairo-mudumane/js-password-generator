@@ -19,9 +19,44 @@
 </head>
 
 <body>
-  <h2>password generator</h2>
+  <div id="register-container">
+    <div id="register-banner">
 
-  <script src="/js/script.js" defer></script>
+      <div id="banner-layer">
+        <h2 class="title">Welcome</h2>
+      </div>
+    </div>
+
+    <div id="register-form">
+      <h2>Login now:</h2>
+      <p>Signup for using all system functionalities</p>
+
+      <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Type your name" />
+      </div>
+
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Type your email" />
+      </div>
+
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Type your password" />
+      </div>
+
+      <p>Need help for create</p>
+      <div class="form-control">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm your password" />
+      </div>
+
+      <button type="submit">Send</button>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
 </body>
 
 </html>
